@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFM Location Retriever", "SFM Location Retriever\SFM Location Retriever.csproj", "{4ED086CF-E68B-4D2A-90A8-9A9DAE565A3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Launcher 3", "Launcher 3\Launcher 3.csproj", "{19AC501D-DD63-4B66-B55F-35585551928F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4ED086CF-E68B-4D2A-90A8-9A9DAE565A3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED086CF-E68B-4D2A-90A8-9A9DAE565A3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED086CF-E68B-4D2A-90A8-9A9DAE565A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED086CF-E68B-4D2A-90A8-9A9DAE565A3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19AC501D-DD63-4B66-B55F-35585551928F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19AC501D-DD63-4B66-B55F-35585551928F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19AC501D-DD63-4B66-B55F-35585551928F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19AC501D-DD63-4B66-B55F-35585551928F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89DA5A6B-4511-4E0C-8108-0576EB432F7B}
+	EndGlobalSection
+EndGlobal
