@@ -25,7 +25,7 @@ namespace SFM_Location_Retriever
 
             Console.WriteLine(sourceFilmmakerPaths.Count());
 
-            steamGameDirs.Add("This is a test removal number 2"); //Gets removed during "SearchSteam"
+            steamGameDirs.Add("This is a test removal number"); //Gets removed during "SearchSteam"
             
             steamGameDirs = SearchSteam(); //Retrieves the paths of libraries
 
