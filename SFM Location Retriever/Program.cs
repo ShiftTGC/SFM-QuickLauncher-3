@@ -33,7 +33,7 @@ namespace SFM_Location_Retriever
 
             sourceFilmmakerPaths = Parsing.FindSFM(Parsing.RemoveInvalidPaths(steamGameDirs));
 
-
+            //Maybe implement something like this? https://youtu.be/qAWhGEPMlS8?si=cWatlNE7Y4vj1YMk
             switch (sourceFilmmakerPaths.Count())
             {
                 case <=0:
@@ -53,11 +53,17 @@ namespace SFM_Location_Retriever
         }
 
         /// <summary>
-        /// 
+        /// Checks and makes sure the path in the config file actually exists and goes to a SFM executable.
         /// </summary>
         /// <returns></returns>
         private static bool CheckConfigFile() //There is supposedly a better way to make/deal with configuratins etc, buuuuut, this seems easier
         {
+
+            //REMINDER TO SELF!
+            //Allow user to select a non-default SFM.exe file.
+            //You never know if they have some modded exe similar to Skyrim/Fallout's Script Extender.
+
+            //Initiates a bunch of variables
             string appDataLocal = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
             string configFileLocation = "ShiftTGC\\SFM-Quicklancher-3\\settings.config";
 
@@ -74,7 +80,7 @@ namespace SFM_Location_Retriever
             Console.WriteLine("  //v3.0//////By: ShiftTGC//    ||  Online/Offline:");
             Console.WriteLine("  (Now with a auto-finder!)     ||  <Waiting on Ping>");
             Console.WriteLine("                                ||");
-            Console.WriteLine("=======================================================================");
+            Console.WriteLine("========================================================================");
         }
 
         /// <summary>
