@@ -17,6 +17,9 @@ namespace SFM_Location_Retriever
 
             Logo(); //Displays Logo
 
+            JsonTest.test();
+
+
             Console.ReadKey();
 
             Console.WriteLine("\nThere will be a check to see if SFM is already discovered added later\n");

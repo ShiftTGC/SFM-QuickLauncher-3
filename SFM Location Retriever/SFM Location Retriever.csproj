@@ -9,6 +9,7 @@
     <PublishAot>true</PublishAot>
     <InvariantGlobalization>true</InvariantGlobalization>
     <StartupObject>SFM_Location_Retriever.Program</StartupObject>
+    <JsonSerializerIsReflectionEnabledByDefault>true</JsonSerializerIsReflectionEnabledByDefault>
   </PropertyGroup>
 
 </Project>
