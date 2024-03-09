@@ -36,7 +36,8 @@ namespace SFM_Location_Retriever
             Console.WriteLine(deserialized.Selected);
             Console.WriteLine(deserialized.Locations[deserialized.Selected]);
 
-            var serialized = JsonSerializer.Serialize(deserialized);
+            var options = new JsonSerializerOptions { WriteIndented = true };
+            var serialized = JsonSerializer.Serialize(deserialized, options);
 
             Console.WriteLine(serialized);
 
