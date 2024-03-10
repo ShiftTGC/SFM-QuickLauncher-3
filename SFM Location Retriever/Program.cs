@@ -48,6 +48,12 @@ namespace SFM_Location_Retriever
                 case >1:
                     //Write code to ask user which SFM to use
 
+                    Console.WriteLine("There are Multiple Paths found:");
+                    foreach (string path in sourceFilmmakerPaths) {Console.WriteLine(path);}
+
+                    //Having added a M.2 from Shift-PornServer to Shift-Station, after adding the PornServer path to Station Steam client, this is now a confirmed thing that can actually happen.
+                    //I am very happy. Also, the names are "device names", not actual function names. I just like to think any network it may get connected to, a IT person will go "...Really?..."
+
                     break;
 
                 case 1:
