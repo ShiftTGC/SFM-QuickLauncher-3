@@ -65,6 +65,7 @@ namespace SFM_Location_Retriever
         {
             //There is supposedly a better way to make/deal with configuratins etc, buuuuut, this seems easier
             //Yes there is a way, USE JSON YOU LAZY BASTARD!!!!!! - Rex
+            //I ALREADY ADDED IT YOU DOOF! - Shift
 
             // TODO:
             //REMINDER TO SELF!
