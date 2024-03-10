@@ -57,6 +57,7 @@ namespace SFM_Location_Retriever
                 Console.WriteLine(item);
             }
 
+            // config.LaunchArguments.Arguments.Add("gay");
            // config.LaunchArguments.Arguments.Remove("gay");
 
             var options = new JsonSerializerOptions { WriteIndented = true };
