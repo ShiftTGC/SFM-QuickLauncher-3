@@ -5,8 +5,6 @@ VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SFM Location Retriever", "SFM Location Retriever\SFM Location Retriever.csproj", "{4ED086CF-E68B-4D2A-90A8-9A9DAE565A3E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Launcher 3", "Launcher 3\Launcher 3.csproj", "{19AC501D-DD63-4B66-B55F-35585551928F}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,18 +27,6 @@ Global
 		{4ED086CF-E68B-4D2A-90A8-9A9DAE565A3E}.Release|x64.Build.0 = Release|x64
 		{4ED086CF-E68B-4D2A-90A8-9A9DAE565A3E}.Release|x86.ActiveCfg = Release|x86
 		{4ED086CF-E68B-4D2A-90A8-9A9DAE565A3E}.Release|x86.Build.0 = Release|x86
-		{19AC501D-DD63-4B66-B55F-35585551928F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{19AC501D-DD63-4B66-B55F-35585551928F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{19AC501D-DD63-4B66-B55F-35585551928F}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{19AC501D-DD63-4B66-B55F-35585551928F}.Debug|x64.Build.0 = Debug|Any CPU
-		{19AC501D-DD63-4B66-B55F-35585551928F}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{19AC501D-DD63-4B66-B55F-35585551928F}.Debug|x86.Build.0 = Debug|Any CPU
-		{19AC501D-DD63-4B66-B55F-35585551928F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{19AC501D-DD63-4B66-B55F-35585551928F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{19AC501D-DD63-4B66-B55F-35585551928F}.Release|x64.ActiveCfg = Release|Any CPU
-		{19AC501D-DD63-4B66-B55F-35585551928F}.Release|x64.Build.0 = Release|Any CPU
-		{19AC501D-DD63-4B66-B55F-35585551928F}.Release|x86.ActiveCfg = Release|Any CPU
-		{19AC501D-DD63-4B66-B55F-35585551928F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
