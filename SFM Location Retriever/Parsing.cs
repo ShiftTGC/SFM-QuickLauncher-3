@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SFM_Location_Retriever
 {
-    public class Parsing
+    internal class Parsing
     {
 
         /// <summary>

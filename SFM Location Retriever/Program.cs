@@ -17,7 +17,9 @@ namespace SFM_Location_Retriever
 
             Logo(); //Displays Logo
 
-            JsonTest.test();
+            //JsonTest.test();
+
+            Console.WriteLine(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFilesX86));
 
 
             Console.ReadKey();
@@ -101,3 +103,17 @@ namespace SFM_Location_Retriever
     }
 
 }
+
+
+/*
+ * QuickSettings idea:
+ * 1/2+
+ * Arg1 - select exe2 - force steam online mode
+ * 2*2-
+ * Arg2 - default exe2 - force steam offline mode
+ * 
+ */
+
+/* make sure to check if file exists and if it does but fails to deserialize, back it up and regenerate a default one
+ * 
+ */

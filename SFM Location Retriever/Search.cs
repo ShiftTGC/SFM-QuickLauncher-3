@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace SFM_Location_Retriever
 {
-    public class Search
+    internal class Search
     {
 
         /// <summary>
