@@ -66,6 +66,7 @@ namespace SFM_Location_Retriever
             //There is supposedly a better way to make/deal with configuratins etc, buuuuut, this seems easier
             //Yes there is a way, USE JSON YOU LAZY BASTARD!!!!!! - Rex
 
+            // TODO:
             //REMINDER TO SELF!
             //Allow user to select a non-default SFM.exe file.
             //You never know if they have some modded exe similar to Skyrim/Fallout's Script Extender.
