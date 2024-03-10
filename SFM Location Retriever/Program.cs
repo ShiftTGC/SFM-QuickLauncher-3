@@ -19,10 +19,10 @@ namespace SFM_Location_Retriever
 
             //JsonTest.test();
 
-            Console.WriteLine(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFilesX86));
+            //Console.WriteLine(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFilesX86));
 
 
-            Console.ReadKey();
+            //Console.ReadKey();
 
             Console.WriteLine("\nThere will be a check to see if SFM is already discovered added later\n");
 
