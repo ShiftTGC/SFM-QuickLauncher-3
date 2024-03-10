@@ -61,8 +61,10 @@ namespace SFM_Location_Retriever
         /// Checks and makes sure the path in the config file actually exists and goes to a SFM executable.
         /// </summary>
         /// <returns></returns>
-        private static bool CheckConfigFile() //There is supposedly a better way to make/deal with configuratins etc, buuuuut, this seems easier
+        private static bool CheckConfigFile()
         {
+            //There is supposedly a better way to make/deal with configuratins etc, buuuuut, this seems easier
+            //Yes there is a way, USE JSON YOU LAZY BASTARD!!!!!! - Rex
 
             //REMINDER TO SELF!
             //Allow user to select a non-default SFM.exe file.
