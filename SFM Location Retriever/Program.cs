@@ -71,10 +71,8 @@ namespace SFM_Location_Retriever
             //Allow user to select a non-default SFM.exe file.
             //You never know if they have some modded exe similar to Skyrim/Fallout's Script Extender.
 
-            //Initiates a bunch of variables
-            string appDataLocal = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
-            string configFileLocation = "ShiftTGC\\SFM-Quicklancher-3\\settings.config";
-
+            //Print out the config file location.
+            Console.WriteLine(StaticVars.ConfigFileLocation);
 
 
             return false;
