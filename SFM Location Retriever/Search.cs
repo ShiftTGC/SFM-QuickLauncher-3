@@ -25,8 +25,8 @@ namespace SFM_Location_Retriever
             string steam64path;
             string config32path;
             string config64path;
-            RegistryKey key32 = Registry.LocalMachine.OpenSubKey(steam32);
-            RegistryKey key64 = Registry.LocalMachine.OpenSubKey(steam64);
+            RegistryKey? key32 = Registry.LocalMachine.OpenSubKey(steam32);
+            RegistryKey? key64 = Registry.LocalMachine.OpenSubKey(steam64);
             if (key64.ToString() == null || key64.ToString() == "") //Checks if it is a 32-bit or 64-bit System
             {
                 foreach (string k32subKey in key32.GetSubKeyNames())
