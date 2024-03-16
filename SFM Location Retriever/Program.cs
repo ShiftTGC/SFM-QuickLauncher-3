@@ -15,6 +15,8 @@ namespace SFM_Location_Retriever
         {
             bool configExists = CheckConfigFile();
 
+            Blueprint.FirstTimeStartup();
+
             Logo(); //Displays Logo
 
             //JsonTest.test();
@@ -22,7 +24,7 @@ namespace SFM_Location_Retriever
             //Console.WriteLine(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFilesX86));
 
 
-            //Console.ReadKey();
+            Console.ReadKey();
 
             Console.WriteLine("\nThere will be a check to see if SFM is already discovered added later\n");
 
@@ -85,7 +87,7 @@ namespace SFM_Location_Retriever
             return false;
         }
 
-        static void Logo()
+        public static void Logo()
         {
             Console.WriteLine("                                ||  Service Statuses");
             Console.WriteLine("    //////////////////////////  ||  Steam Store Page:");

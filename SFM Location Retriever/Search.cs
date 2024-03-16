@@ -1,6 +1,7 @@
 ﻿using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -12,9 +13,9 @@ namespace SFM_Location_Retriever
     {
 
         /// <summary>
-        /// Stolen from https://stackoverflow.com/a/54886330 and modified to work for what I needed
+        /// Stolen from https://stackoverflow.com/a/54886330 and modified to work for what I needed for now.
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Steam Library Paths</returns>
         public static List<string> SearchSteam()
         {
             List<string> steamGameDirs = new List<string>();
@@ -27,6 +28,7 @@ namespace SFM_Location_Retriever
             string config64path;
             RegistryKey? key32 = Registry.LocalMachine.OpenSubKey(steam32);
             RegistryKey? key64 = Registry.LocalMachine.OpenSubKey(steam64);
+            //I believe I can modify this down the line to be less lines, and maybe add SearchSteamIDpaths or something.I'll figure something oooouuut
             if (key64.ToString() == null || key64.ToString() == "") //Checks if it is a 32-bit or 64-bit System
             {
                 foreach (string k32subKey in key32.GetSubKeyNames())
