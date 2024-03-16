@@ -5,17 +5,23 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Text.RegularExpressions;
+using System.Threading;
 
 namespace SFM_Location_Retriever
 {
     internal class Program
     {
-
         static void Main(string[] args)
         {
-            bool configExists = CheckConfigFile();
+            //bool configExists = CheckConfigFile();
 
-            Blueprint.FirstTimeStartup();
+            Console.WriteLine(Thread.CurrentThread.GetApartmentState().ToString());
+
+            StaticVars.RunInSTA(Blueprint.FirstTimeStartupMulti);
+
+            Console.WriteLine(Thread.CurrentThread.GetApartmentState().ToString());
+            Console.ReadKey();
+
 
             Logo(); //Displays Logo
 
@@ -89,13 +95,14 @@ namespace SFM_Location_Retriever
 
         public static void Logo()
         {
-            Console.WriteLine("                                ||  Service Statuses");
-            Console.WriteLine("    //////////////////////////  ||  Steam Store Page:");
-            Console.WriteLine("   // SFM Quick-Launcher 3 //   ||  <Testing Ping...>");
-            Console.WriteLine("  //v3.0//////By: ShiftTGC//    ||  Online/Offline:");
-            Console.WriteLine("  (Now with a auto-finder!)     ||  <Waiting on Ping>");
-            Console.WriteLine("                                ||");
+            Console.WriteLine("    //////////////////////////");
+            Console.WriteLine("   // SFM Quick-Launcher 3 //");
+            Console.WriteLine("  //v3.0//////By: ShiftTGC//");
+            Console.WriteLine("  (Now with a auto-finder!)");
             Console.WriteLine("========================================================================");
+            //Console.WriteLine("Change config at:");
+            //Console.WriteLine($"{StaticVars.ConfigFileLocation}");
+            //Console.WriteLine("========================================================================");
         }
 
         /// <summary>

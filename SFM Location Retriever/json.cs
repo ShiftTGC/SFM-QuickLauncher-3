@@ -16,7 +16,7 @@ namespace SFM_Location_Retriever
         {
             var deserialized = new SourceFilmmaker();
 
-            deserialized.LaunchArguments.Arguments.Add("<your custom launch-args here. Add as many as you want.>");
+            deserialized.LaunchArguments.Arguments.Add("your custom launch-args here. Add as many as you want.");
 
             deserialized.Locations.Add(@"M:\Tools\Steam\steamapps\common\SourceFilmmaker\game\sfm.exe");
             deserialized.Locations.Add(@"C:\Stuff\Neigh\Steam\steamapps\common\SourceFilmmaker\game\sfm.exe");
@@ -83,7 +83,6 @@ namespace SFM_Location_Retriever
                 LaunchArguments.Arguments.Add("-open usermod");
                 Selected = 0; //index based. 0 is 1, 1 is 2, 2 is 3, etc etc. If you are looking through this, you should already know this.
                 //Selected is the selected SFM location
-                Locations.Add(@$"{Environment.GetFolderPath(Environment.SpecialFolder.ProgramFilesX86)}\Steam\steamapps\common\SourceFilmmaker\game\sfm.exe");
             }
         }
 

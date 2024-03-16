@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -25,5 +26,12 @@ namespace SFM_Location_Retriever
         /// </summary>
         public static string ConfigFileLocation => Path.Combine(ConfigRoot, "settings.json");
 
+        public static void RunInSTA(Action methodToRun)
+        {
+            Thread STAmode = new Thread(() => { methodToRun(); });
+            STAmode.SetApartmentState(ApartmentState.STA);
+            STAmode.Start();
+            STAmode.Join();
+        }
     }
 }
