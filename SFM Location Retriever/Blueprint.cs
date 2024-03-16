@@ -49,7 +49,7 @@ namespace SFM_Location_Retriever
             Console.WriteLine("SFM.exe not found, please find the SFM executable\n" +
                 "(A File Explorer \"Selection\" window will open up in ~5 seconds)\n+n");
 
-
+            //Will make this more functional and expensive down the line. Likely will make development take longer time, buuuut, not like someone else will actually want to use this. Maybe yoink the Steam Library Search thingy, but other than that, I don't see why anyone would want to use my code anyhow. I usually just make niech things. Hell, this entire program could have been two shortcut files. "SFM-Edit" and "SFM-Render".
             Console.WriteLine("\n\n========================================================================\n" +
             "In the offchance It is not found, a system shall be in place to let you select any exe as SFM.\n" +
             "If some checks fails, a warning will pop up saying the program doesn't recognise the exe as SFM, where they get to choose \"cancel\", \"retry\" or \"It's non-standard/I know what I am doing\"\n" +
